@@ -1,5 +1,9 @@
 # Data Visualization using Python - Matplotlib and Seaborn
 
+Interact with the Jupyter Notebook:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/trisha751/Matplotlib-Data-Visualization.git/HEAD?filepath=Python-matplotlib-data-visualization.ipynb)
+ 
 ## Introduction
 
 Data visualization is the graphic representation of data. It involves producing images that communicate relationships among the represented data to viewers. Visualizing data is an essential part of data analysis and machine learning. In this tutorial, we'll use Python libraries Matplotlib and Seaborn to learn and apply some popular data visualization techniques.
@@ -35,6 +39,7 @@ yield_apples = [0.895, 0.91, 0.919, 0.926, 0.929, 0.931]
 ```
 
 We can visualize how the yield of apples changes over time using a line chart. To draw a line chart, we can use the plt.plot function.
+
 
 ```python
 plt.plot(yield_apples)
